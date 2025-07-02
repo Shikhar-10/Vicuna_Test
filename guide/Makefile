@@ -10,8 +10,8 @@ ELF ?= $(SRC_BASENAME).elf
 RISCV_PATH ?= /opt/riscv32
 # Set the path to Vicuna
 # Make sure to set the VICUNA_PATH and VICUNA_PROJ_PATH variables to the correct
-VICUNA_PATH      ?= /home/shikhar10/vicuna-build/vicuna
-VICUNA_PROJ_PATH ?= /home/shikhar10/Summer_Intern/Vicuna_Test/
+VICUNA_PATH      ?= /vicuna/path
+VICUNA_PROJ_PATH ?= /vicuna/project/path
 PROJ             ?= /project/name
 ifneq ($(PROJ),)
 	FULL_PROJ_DIR = $(VICUNA_PROJ_PATH)$(PROJ)
