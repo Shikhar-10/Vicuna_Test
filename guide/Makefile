@@ -2,15 +2,17 @@ FLAGS = -march=rv32imv -mabi=ilp32
 CC = riscv32-unknown-elf-gcc
 AS = riscv32-unknown-elf-as
 
-SRC ?= /src/file/name
+SRC ?=  /src/file/name
 SRC_BASENAME = $(basename $(SRC))
 
 OUT ?= $(SRC_BASENAME).o
 ELF ?= $(SRC_BASENAME).elf
 RISCV_PATH ?= /opt/riscv32
-VICUNA_PATH ?= /home/nikhil/vicuna-build/vicuna
-VICUNA_PROJ_PATH ?= /home/nikhil/Nikhil/ElectronicsDev/RISC-V/Vicuna/tests/
-PROJ ?= /project/name
+# Set the path to Vicuna
+# Make sure to set the VICUNA_PATH and VICUNA_PROJ_PATH variables to the correct
+VICUNA_PATH      ?= /home/shikhar10/vicuna-build/vicuna
+VICUNA_PROJ_PATH ?= /home/shikhar10/Summer_Intern/Vicuna_Test/
+PROJ             ?= /project/name
 ifneq ($(PROJ),)
 	FULL_PROJ_DIR = $(VICUNA_PROJ_PATH)$(PROJ)
 endif
@@ -18,10 +20,13 @@ endif
 TXT_TO_REPLACE = /replace/me/with/vmem/path
 VMEM_PATH = $(FULL_PROJ_DIR)/$(SRC_BASENAME).vmem
 
-WCFG_PATH_IBEX = $(VICUNA_PROJ_PATH)/demo_tb_behav_ibex.wcfg
+WCFG_PATH_IBEX     = $(VICUNA_PROJ_PATH)/demo_tb_behav_ibex.wcfg
 WCFG_PATH_CV32E40X = $(VICUNA_PROJ_PATH)/demo_tb_behav_cv32e40x.wcfg
+WCFG_PATH_SRV32    = $(VICUNA_PROJ_PATH)/demo_tb_behav_srv32.wcfg
+
 
 CORE ?= ibex
+# Set the core to ibex or cv32e40x or srv32
 VPROC_CONFIG ?= triple
 VPORT_POLICY ?= some
 VREG_W ?= 128
@@ -117,10 +122,20 @@ synth-vicuna:
 		VPROC_CONFIG=$(VPROC_CONFIG) VPORT_POLICY=$(VPORT_POLICY) \
 		VREG_W=$(VREG_W) VMEM_W=$(VMEM_W) TARGET_TECH=$(TARGET_TECH) \
 		PROJ_DIR=$(FULL_PROJ_DIR)/synth CORE=$(CORE)
-ifneq ($(CORE),ibex)
-	sed "s|$(TXT_TO_REPLACE)|$(VMEM_PATH)|g" $(WCFG_PATH_CV32E40X) > $(FULL_PROJ_DIR)/synth/vicuna_demo/demo_tb_behav_cv32e40x.wcfg
+
+# Generate wcfg file based on the CORE variable		
+ifeq ($(CORE),ibex)
+	@echo "CORE is set to $(CORE), generating wcfg file for $(CORE)"
+	@sed "s|$(TXT_TO_REPLACE)|$(VMEM_PATH)|g" $(WCFG_PATH_IBEX) > $(FULL_PROJ_DIR)/synth/vicuna_demo/demo_tb_behav_ibex.wcfg
+	@echo "WCFG_PATH: $(WCFG_PATH_IBEX)"
+else ifeq ($(CORE),cv32e40x)
+	@echo "CORE is set to $(CORE), generating wcfg file for $(CORE)"
+	@sed "s|$(TXT_TO_REPLACE)|$(VMEM_PATH)|g" $(WCFG_PATH_CV32E40X) > $(FULL_PROJ_DIR)/synth/vicuna_demo/demo_tb_behav_cv32e40x.wcfg
+	@echo "WCFG_PATH: $(WCFG_PATH_CV32E40X)"
 else
-	sed "s|$(TXT_TO_REPLACE)|$(VMEM_PATH)|g" $(WCFG_PATH_IBEX) > $(FULL_PROJ_DIR)/synth/vicuna_demo/demo_tb_behav_ibex.wcfg
+	@echo "CORE is set to $(CORE), generating wcfg file for $(CORE)"
+	@sed "s|$(TXT_TO_REPLACE)|$(VMEM_PATH)|g" $(WCFG_PATH_SRV32) > $(FULL_PROJ_DIR)/synth/vicuna_demo/demo_tb_behav_srv32.wcfg
+	@echo "WCFG_PATH: $(WCFG_PATH_SRV32)"
 endif
 
 clean-obj:
@@ -131,13 +146,14 @@ clean-vicuna-run:
 	@$(MAKE) check_proj_dir
 	rm -f $(SRC_BASENAME).o  $(SRC_BASENAME).elf $(SRC_BASENAME).vmem 
 
+# Clean up the project directory
 clean-sim:
 	@$(MAKE) check_proj_dir
-	rm -rf $(FULL_PROJ_DIR)/sim/*
+	rm -rf $(FULL_PROJ_DIR)/sim
 
 clean-synth:
 	@$(MAKE) check_proj_dir
-	rm -rf $(FULL_PROJ_DIR)/synth/*
+	rm -rf $(FULL_PROJ_DIR)/synth
 	
 tmp_debug:
 	@echo "FLAGS: $(FLAGS)"
@@ -151,6 +167,7 @@ tmp_debug:
 	@echo "FULL_PROJ_DIR: $(FULL_PROJ_DIR)"
 	@echo "VMEM_PATH: $(VMEM_PATH)"
 	@echo "WCFG_PATH: $(WCFG_PATH)"
+	@echo "------------------------------------------"
 	@echo "CORE: $(CORE)"
 	@echo "BOARD: $(BOARD)"
 	@echo "VPROC_CONFIG: $(VPROC_CONFIG)"

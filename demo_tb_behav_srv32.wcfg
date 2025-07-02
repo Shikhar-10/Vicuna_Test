@@ -1,0 +1,2881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="testbench" />
+            <top_module name="vproc_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,000.001 ns"></ZoomEndTime>
+      <Cursor1Time time="174.387 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="238"></NameColumnWidth>
+      <ValueColumnWidth column_width="189"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="51" />
+   <wave_markers>
+      <marker label="" time="2120000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/resetb">
+      <obj_property name="ElementShortName">resetb</obj_property>
+      <obj_property name="ObjectShortName">resetb</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider362" type="divider">
+      <obj_property name="label">u_core (srv32)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#0000FF</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3124">
+      <obj_property name="label">pc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/if_pc">
+         <obj_property name="ElementShortName">if_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">if_pc[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/fetch_pc">
+         <obj_property name="ElementShortName">fetch_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">fetch_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_pc">
+         <obj_property name="ElementShortName">ex_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_pc[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/wb_pc">
+         <obj_property name="ElementShortName">wb_pc[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_pc[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/if_pc">
+      <obj_property name="ElementShortName">if_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_pc[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFFFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/if_insn">
+      <obj_property name="ElementShortName">if_insn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">if_insn[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_insn">
+      <obj_property name="ElementShortName">ex_insn[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ex_insn[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3119">
+      <obj_property name="label">stall</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/stall_r">
+         <obj_property name="ElementShortName">stall_r</obj_property>
+         <obj_property name="ObjectShortName">stall_r</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/stall">
+         <obj_property name="ElementShortName">stall</obj_property>
+         <obj_property name="ObjectShortName">stall</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/if_stall">
+         <obj_property name="ElementShortName">if_stall</obj_property>
+         <obj_property name="ObjectShortName">if_stall</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_stall">
+         <obj_property name="ElementShortName">ex_stall</obj_property>
+         <obj_property name="ObjectShortName">ex_stall</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/wb_stall">
+         <obj_property name="ElementShortName">wb_stall</obj_property>
+         <obj_property name="ObjectShortName">wb_stall</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_flush">
+      <obj_property name="ElementShortName">ex_flush</obj_property>
+      <obj_property name="ObjectShortName">ex_flush</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3138">
+      <obj_property name="label">illegal_signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_illegal">
+         <obj_property name="ElementShortName">ex_illegal</obj_property>
+         <obj_property name="ObjectShortName">ex_illegal</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_ill_branch">
+         <obj_property name="ElementShortName">ex_ill_branch</obj_property>
+         <obj_property name="ObjectShortName">ex_ill_branch</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_ld_align_excp">
+         <obj_property name="ElementShortName">ex_ld_align_excp</obj_property>
+         <obj_property name="ObjectShortName">ex_ld_align_excp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_st_align_excp">
+         <obj_property name="ElementShortName">ex_st_align_excp</obj_property>
+         <obj_property name="ObjectShortName">ex_st_align_excp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_inst_ill_excp">
+         <obj_property name="ElementShortName">ex_inst_ill_excp</obj_property>
+         <obj_property name="ObjectShortName">ex_inst_ill_excp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_inst_align_excp">
+         <obj_property name="ElementShortName">ex_inst_align_excp</obj_property>
+         <obj_property name="ObjectShortName">ex_inst_align_excp</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group1410">
+      <obj_property name="label">vect_instr_detect</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/id_illegal_v_d">
+         <obj_property name="ElementShortName">id_illegal_v_d</obj_property>
+         <obj_property name="ObjectShortName">id_illegal_v_d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/id_illegal_v_q">
+         <obj_property name="ElementShortName">id_illegal_v_q</obj_property>
+         <obj_property name="ObjectShortName">id_illegal_v_q</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group703">
+      <obj_property name="label">operands and more</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_src1_sel">
+         <obj_property name="ElementShortName">ex_src1_sel[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_src1_sel[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_src2_sel">
+         <obj_property name="ElementShortName">ex_src2_sel[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_src2_sel[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/reg_rdata1">
+         <obj_property name="ElementShortName">reg_rdata1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_rdata1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/reg_rdata2">
+         <obj_property name="ElementShortName">reg_rdata2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_rdata2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/alu_op1">
+         <obj_property name="ElementShortName">alu_op1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_op1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/alu_op2">
+         <obj_property name="ElementShortName">alu_op2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">alu_op2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_dst_sel">
+         <obj_property name="ElementShortName">ex_dst_sel[4:0]</obj_property>
+         <obj_property name="ObjectShortName">ex_dst_sel[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/wb_dst_sel">
+         <obj_property name="ElementShortName">wb_dst_sel[4:0]</obj_property>
+         <obj_property name="ObjectShortName">wb_dst_sel[4:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group2901">
+      <obj_property name="label">interrupt</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/interrupt">
+         <obj_property name="ElementShortName">interrupt</obj_property>
+         <obj_property name="ObjectShortName">interrupt</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/ex_irq">
+         <obj_property name="ElementShortName">ex_irq</obj_property>
+         <obj_property name="ObjectShortName">ex_irq</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/timer_irq">
+         <obj_property name="ElementShortName">timer_irq</obj_property>
+         <obj_property name="ObjectShortName">timer_irq</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/timer_en">
+         <obj_property name="ElementShortName">timer_en</obj_property>
+         <obj_property name="ObjectShortName">timer_en</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_timer_irq">
+         <obj_property name="ElementShortName">ex_timer_irq</obj_property>
+         <obj_property name="ObjectShortName">ex_timer_irq</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_sw_irq">
+         <obj_property name="ElementShortName">ex_sw_irq</obj_property>
+         <obj_property name="ObjectShortName">ex_sw_irq</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/ex_interrupt">
+         <obj_property name="ElementShortName">ex_interrupt</obj_property>
+         <obj_property name="ObjectShortName">ex_interrupt</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/exception">
+      <obj_property name="ElementShortName">exception</obj_property>
+      <obj_property name="ObjectShortName">exception</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3146">
+      <obj_property name="label">srv32_xif_internal</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_accepted_q">
+         <obj_property name="ElementShortName">xif_accepted_q</obj_property>
+         <obj_property name="ObjectShortName">xif_accepted_q</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_rejected_q">
+         <obj_property name="ElementShortName">xif_rejected_q</obj_property>
+         <obj_property name="ObjectShortName">xif_rejected_q</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_instr_rejected">
+         <obj_property name="ElementShortName">xif_instr_rejected</obj_property>
+         <obj_property name="ObjectShortName">xif_instr_rejected</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_offloading_instr_id">
+         <obj_property name="ElementShortName">xif_offloading_instr_id[3:0]</obj_property>
+         <obj_property name="ObjectShortName">xif_offloading_instr_id[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_offloading_status">
+         <obj_property name="ElementShortName">xif_issue_offloading_status</obj_property>
+         <obj_property name="ObjectShortName">xif_issue_offloading_status</obj_property>
+      </wvobject>
+      <wvobject type="group" fp_name="group2962">
+         <obj_property name="label">xif_issue_internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_valid">
+            <obj_property name="ElementShortName">xif_issue_valid</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_ready">
+            <obj_property name="ElementShortName">xif_issue_ready</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_ready</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_req_instr">
+            <obj_property name="ElementShortName">xif_issue_req_instr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_req_instr[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_req_mode">
+            <obj_property name="ElementShortName">xif_issue_req_mode[1:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_req_mode[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_req_id">
+            <obj_property name="ElementShortName">xif_issue_req_id[3:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_req_id[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_resp_accept">
+            <obj_property name="ElementShortName">xif_issue_resp_accept</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_resp_accept</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_resp_writeback">
+            <obj_property name="ElementShortName">xif_issue_resp_writeback[0:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_resp_writeback[0:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_resp_loadstore">
+            <obj_property name="ElementShortName">xif_issue_resp_loadstore</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_resp_loadstore</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_resp_dualwrite">
+            <obj_property name="ElementShortName">xif_issue_resp_dualwrite</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_resp_dualwrite</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_resp_dualread">
+            <obj_property name="ElementShortName">xif_issue_resp_dualread[2:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_resp_dualread[2:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_issue_resp_exc">
+            <obj_property name="ElementShortName">xif_issue_resp_exc</obj_property>
+            <obj_property name="ObjectShortName">xif_issue_resp_exc</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group3077">
+         <obj_property name="label">xif_register_internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_register_valid">
+            <obj_property name="ElementShortName">xif_register_valid</obj_property>
+            <obj_property name="ObjectShortName">xif_register_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_register_ready">
+            <obj_property name="ElementShortName">xif_register_ready</obj_property>
+            <obj_property name="ObjectShortName">xif_register_ready</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_register_id">
+            <obj_property name="ElementShortName">xif_register_id[3:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_register_id[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_register_rs">
+            <obj_property name="ElementShortName">xif_register_rs[1:0][31:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_register_rs[1:0][31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_register_rs_valid">
+            <obj_property name="ElementShortName">xif_register_rs_valid[1:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_register_rs_valid[1:0]</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group3081">
+         <obj_property name="label">xif_commit_internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_commit_valid">
+            <obj_property name="ElementShortName">xif_commit_valid</obj_property>
+            <obj_property name="ObjectShortName">xif_commit_valid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_commit_id">
+            <obj_property name="ElementShortName">xif_commit_id[3:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_commit_id[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_commit_kill">
+            <obj_property name="ElementShortName">xif_commit_kill</obj_property>
+            <obj_property name="ObjectShortName">xif_commit_kill</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group3097">
+         <obj_property name="label">xif_mem_internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_valid">
+            <obj_property name="ElementShortName">xif_mem_valid</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_ready">
+            <obj_property name="ElementShortName">xif_mem_ready</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_ready</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_id">
+            <obj_property name="ElementShortName">xif_mem_req_id[3:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_id[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_addr">
+            <obj_property name="ElementShortName">xif_mem_req_addr[31:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_addr[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_mode">
+            <obj_property name="ElementShortName">xif_mem_req_mode[1:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_mode[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_we">
+            <obj_property name="ElementShortName">xif_mem_req_we</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_we</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_size">
+            <obj_property name="ElementShortName">xif_mem_req_size[2:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_size[2:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_be">
+            <obj_property name="ElementShortName">xif_mem_req_be[3:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_be[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_attr">
+            <obj_property name="ElementShortName">xif_mem_req_attr[1:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_attr[1:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_wdata">
+            <obj_property name="ElementShortName">xif_mem_req_wdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_wdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_last">
+            <obj_property name="ElementShortName">xif_mem_req_last</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_last</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_req_spec">
+            <obj_property name="ElementShortName">xif_mem_req_spec</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_req_spec</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_resp_exc">
+            <obj_property name="ElementShortName">xif_mem_resp_exc</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_resp_exc</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_resp_excode">
+            <obj_property name="ElementShortName">xif_mem_resp_excode[5:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_resp_excode[5:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_resp_dbg">
+            <obj_property name="ElementShortName">xif_mem_resp_dbg</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_resp_dbg</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group3103">
+         <obj_property name="label">xif_mem_result_internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_result_valid">
+            <obj_property name="ElementShortName">xif_mem_result_valid</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_result_valid</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_result_id">
+            <obj_property name="ElementShortName">xif_mem_result_id[3:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_result_id[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_result_rdata">
+            <obj_property name="ElementShortName">xif_mem_result_rdata[31:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_result_rdata[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_result_err">
+            <obj_property name="ElementShortName">xif_mem_result_err</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_result_err</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_mem_result_dbg">
+            <obj_property name="ElementShortName">xif_mem_result_dbg</obj_property>
+            <obj_property name="ObjectShortName">xif_mem_result_dbg</obj_property>
+         </wvobject>
+      </wvobject>
+      <wvobject type="group" fp_name="group3114">
+         <obj_property name="label">xif_result_internal</obj_property>
+         <obj_property name="DisplayName">label</obj_property>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_valid">
+            <obj_property name="ElementShortName">xif_result_valid</obj_property>
+            <obj_property name="ObjectShortName">xif_result_valid</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_ready">
+            <obj_property name="ElementShortName">xif_result_ready</obj_property>
+            <obj_property name="ObjectShortName">xif_result_ready</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_id">
+            <obj_property name="ElementShortName">xif_result_id[3:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_result_id[3:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_data">
+            <obj_property name="ElementShortName">xif_result_data[31:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_result_data[31:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_rd">
+            <obj_property name="ElementShortName">xif_result_rd[4:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_result_rd[4:0]</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_we">
+            <obj_property name="ElementShortName">xif_result_we[0:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_result_we[0:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_exc">
+            <obj_property name="ElementShortName">xif_result_exc</obj_property>
+            <obj_property name="ObjectShortName">xif_result_exc</obj_property>
+         </wvobject>
+         <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_excode">
+            <obj_property name="ElementShortName">xif_result_excode[5:0]</obj_property>
+            <obj_property name="ObjectShortName">xif_result_excode[5:0]</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_dbg">
+            <obj_property name="ElementShortName">xif_result_dbg</obj_property>
+            <obj_property name="ObjectShortName">xif_result_dbg</obj_property>
+         </wvobject>
+         <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_core/srv32/xif_result_err">
+            <obj_property name="ElementShortName">xif_result_err</obj_property>
+            <obj_property name="ObjectShortName">xif_result_err</obj_property>
+         </wvobject>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group2886">
+      <obj_property name="label">imem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/imem_ready">
+         <obj_property name="ElementShortName">imem_ready</obj_property>
+         <obj_property name="ObjectShortName">imem_ready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/imem_valid">
+         <obj_property name="ElementShortName">imem_valid</obj_property>
+         <obj_property name="ObjectShortName">imem_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/imem_addr">
+         <obj_property name="ElementShortName">imem_addr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imem_addr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/imem_rresp">
+         <obj_property name="ElementShortName">imem_rresp</obj_property>
+         <obj_property name="ObjectShortName">imem_rresp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/imem_rdata">
+         <obj_property name="ElementShortName">imem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">imem_rdata[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group2897">
+      <obj_property name="label">dmem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/dmem_wready">
+         <obj_property name="ElementShortName">dmem_wready</obj_property>
+         <obj_property name="ObjectShortName">dmem_wready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/dmem_wvalid">
+         <obj_property name="ElementShortName">dmem_wvalid</obj_property>
+         <obj_property name="ObjectShortName">dmem_wvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/dmem_waddr">
+         <obj_property name="ElementShortName">dmem_waddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dmem_waddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/dmem_wdata">
+         <obj_property name="ElementShortName">dmem_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dmem_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/dmem_wstrb">
+         <obj_property name="ElementShortName">dmem_wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">dmem_wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/dmem_rready">
+         <obj_property name="ElementShortName">dmem_rready</obj_property>
+         <obj_property name="ObjectShortName">dmem_rready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/dmem_rvalid">
+         <obj_property name="ElementShortName">dmem_rvalid</obj_property>
+         <obj_property name="ObjectShortName">dmem_rvalid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/dmem_raddr">
+         <obj_property name="ElementShortName">dmem_raddr[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dmem_raddr[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/dmem_rresp">
+         <obj_property name="ElementShortName">dmem_rresp</obj_property>
+         <obj_property name="ObjectShortName">dmem_rresp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/dmem_rdata">
+         <obj_property name="ElementShortName">dmem_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">dmem_rdata[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group3179">
+      <obj_property name="label">regfile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x0_zero">
+         <obj_property name="ElementShortName">x0_zero[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x0_zero[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x1_ra">
+         <obj_property name="ElementShortName">x1_ra[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x1_ra[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x2_sp">
+         <obj_property name="ElementShortName">x2_sp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x2_sp[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x3_gp">
+         <obj_property name="ElementShortName">x3_gp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x3_gp[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x4_tp">
+         <obj_property name="ElementShortName">x4_tp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x4_tp[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x5_t0">
+         <obj_property name="ElementShortName">x5_t0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x5_t0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x6_t1">
+         <obj_property name="ElementShortName">x6_t1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x6_t1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x7_t2">
+         <obj_property name="ElementShortName">x7_t2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x7_t2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x8_s0_fp">
+         <obj_property name="ElementShortName">x8_s0_fp[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x8_s0_fp[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x9_s1">
+         <obj_property name="ElementShortName">x9_s1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x9_s1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x10_a0">
+         <obj_property name="ElementShortName">x10_a0[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x10_a0[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x11_a1">
+         <obj_property name="ElementShortName">x11_a1[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x11_a1[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x12_a2">
+         <obj_property name="ElementShortName">x12_a2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x12_a2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x13_a3">
+         <obj_property name="ElementShortName">x13_a3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x13_a3[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x14_a4">
+         <obj_property name="ElementShortName">x14_a4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x14_a4[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x15_a5">
+         <obj_property name="ElementShortName">x15_a5[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x15_a5[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x16_a6">
+         <obj_property name="ElementShortName">x16_a6[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x16_a6[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x17_a7">
+         <obj_property name="ElementShortName">x17_a7[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x17_a7[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x18_s2">
+         <obj_property name="ElementShortName">x18_s2[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x18_s2[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x19_s3">
+         <obj_property name="ElementShortName">x19_s3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x19_s3[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x20_s4">
+         <obj_property name="ElementShortName">x20_s4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x20_s4[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x21_s5">
+         <obj_property name="ElementShortName">x21_s5[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x21_s5[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x22_s6">
+         <obj_property name="ElementShortName">x22_s6[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x22_s6[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x23_s7">
+         <obj_property name="ElementShortName">x23_s7[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x23_s7[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x24_s8">
+         <obj_property name="ElementShortName">x24_s8[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x24_s8[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x25_s9">
+         <obj_property name="ElementShortName">x25_s9[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x25_s9[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x26_s10">
+         <obj_property name="ElementShortName">x26_s10[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x26_s10[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x27_s11">
+         <obj_property name="ElementShortName">x27_s11[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x27_s11[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x28_t3">
+         <obj_property name="ElementShortName">x28_t3[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x28_t3[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x29_t4">
+         <obj_property name="ElementShortName">x29_t4[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x29_t4[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x30_t5">
+         <obj_property name="ElementShortName">x30_t5[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x30_t5[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_core/srv32/x31_t6">
+         <obj_property name="ElementShortName">x31_t6[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x31_t6[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider361" type="divider">
+      <obj_property name="label">cv-xif</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#FFA500</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group360">
+      <obj_property name="label">srv32_xif</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/issue_valid">
+         <obj_property name="ElementShortName">issue_valid</obj_property>
+         <obj_property name="ObjectShortName">issue_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/issue_ready">
+         <obj_property name="ElementShortName">issue_ready</obj_property>
+         <obj_property name="ObjectShortName">issue_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/issue_req">
+         <obj_property name="ElementShortName">issue_req</obj_property>
+         <obj_property name="ObjectShortName">issue_req</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/issue_resp">
+         <obj_property name="ElementShortName">issue_resp</obj_property>
+         <obj_property name="ObjectShortName">issue_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/register_valid">
+         <obj_property name="ElementShortName">register_valid</obj_property>
+         <obj_property name="ObjectShortName">register_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/register_ready">
+         <obj_property name="ElementShortName">register_ready</obj_property>
+         <obj_property name="ObjectShortName">register_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/register">
+         <obj_property name="ElementShortName">register</obj_property>
+         <obj_property name="ObjectShortName">register</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/commit_valid">
+         <obj_property name="ElementShortName">commit_valid</obj_property>
+         <obj_property name="ObjectShortName">commit_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/commit">
+         <obj_property name="ElementShortName">commit</obj_property>
+         <obj_property name="ObjectShortName">commit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/mem_valid">
+         <obj_property name="ElementShortName">mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/mem_ready">
+         <obj_property name="ElementShortName">mem_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/mem_req">
+         <obj_property name="ElementShortName">mem_req</obj_property>
+         <obj_property name="ObjectShortName">mem_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/mem_resp">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/mem_result_valid">
+         <obj_property name="ElementShortName">mem_result_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_result_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/mem_result">
+         <obj_property name="ElementShortName">mem_result</obj_property>
+         <obj_property name="ObjectShortName">mem_result</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/result_valid">
+         <obj_property name="ElementShortName">result_valid</obj_property>
+         <obj_property name="ObjectShortName">result_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/srv32_xif/result_ready">
+         <obj_property name="ElementShortName">result_ready</obj_property>
+         <obj_property name="ObjectShortName">result_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/result">
+         <obj_property name="ElementShortName">result</obj_property>
+         <obj_property name="ObjectShortName">result</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_NUM_RS">
+         <obj_property name="ElementShortName">X_NUM_RS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_NUM_RS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_ID_WIDTH">
+         <obj_property name="ElementShortName">X_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_RFR_WIDTH">
+         <obj_property name="ElementShortName">X_RFR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_RFW_WIDTH">
+         <obj_property name="ElementShortName">X_RFW_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFW_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_MISA">
+         <obj_property name="ElementShortName">X_MISA[25:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MISA[25:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_DUALREAD">
+         <obj_property name="ElementShortName">X_DUALREAD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_DUALREAD[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_DUALWRITE">
+         <obj_property name="ElementShortName">X_DUALWRITE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_DUALWRITE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_ISSUE_REGISTER_SPLIT">
+         <obj_property name="ElementShortName">X_ISSUE_REGISTER_SPLIT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_ISSUE_REGISTER_SPLIT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/srv32_xif/X_MEM_WIDTH">
+         <obj_property name="ElementShortName">X_MEM_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MEM_WIDTH[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group331">
+      <obj_property name="label">vcore_xif</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/issue_valid">
+         <obj_property name="ElementShortName">issue_valid</obj_property>
+         <obj_property name="ObjectShortName">issue_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/issue_ready">
+         <obj_property name="ElementShortName">issue_ready</obj_property>
+         <obj_property name="ObjectShortName">issue_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/issue_req">
+         <obj_property name="ElementShortName">issue_req</obj_property>
+         <obj_property name="ObjectShortName">issue_req</obj_property>
+         <obj_property name="isExpanded"></obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/issue_resp">
+         <obj_property name="ElementShortName">issue_resp</obj_property>
+         <obj_property name="ObjectShortName">issue_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/commit_valid">
+         <obj_property name="ElementShortName">commit_valid</obj_property>
+         <obj_property name="ObjectShortName">commit_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/commit">
+         <obj_property name="ElementShortName">commit</obj_property>
+         <obj_property name="ObjectShortName">commit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/mem_valid">
+         <obj_property name="ElementShortName">mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/mem_ready">
+         <obj_property name="ElementShortName">mem_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/mem_req">
+         <obj_property name="ElementShortName">mem_req</obj_property>
+         <obj_property name="ObjectShortName">mem_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/mem_resp">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/mem_result_valid">
+         <obj_property name="ElementShortName">mem_result_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_result_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/mem_result">
+         <obj_property name="ElementShortName">mem_result</obj_property>
+         <obj_property name="ObjectShortName">mem_result</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/result_valid">
+         <obj_property name="ElementShortName">result_valid</obj_property>
+         <obj_property name="ObjectShortName">result_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/result_ready">
+         <obj_property name="ElementShortName">result_ready</obj_property>
+         <obj_property name="ObjectShortName">result_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/result">
+         <obj_property name="ElementShortName">result</obj_property>
+         <obj_property name="ObjectShortName">result</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_NUM_RS">
+         <obj_property name="ElementShortName">X_NUM_RS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_NUM_RS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_ID_WIDTH">
+         <obj_property name="ElementShortName">X_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_MEM_WIDTH">
+         <obj_property name="ElementShortName">X_MEM_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MEM_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_RFR_WIDTH">
+         <obj_property name="ElementShortName">X_RFR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_RFW_WIDTH">
+         <obj_property name="ElementShortName">X_RFW_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFW_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_MISA">
+         <obj_property name="ElementShortName">X_MISA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MISA[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/issue_valid">
+         <obj_property name="ElementShortName">issue_valid</obj_property>
+         <obj_property name="ObjectShortName">issue_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/issue_ready">
+         <obj_property name="ElementShortName">issue_ready</obj_property>
+         <obj_property name="ObjectShortName">issue_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/issue_req">
+         <obj_property name="ElementShortName">issue_req</obj_property>
+         <obj_property name="ObjectShortName">issue_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/issue_resp">
+         <obj_property name="ElementShortName">issue_resp</obj_property>
+         <obj_property name="ObjectShortName">issue_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/commit_valid">
+         <obj_property name="ElementShortName">commit_valid</obj_property>
+         <obj_property name="ObjectShortName">commit_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/commit">
+         <obj_property name="ElementShortName">commit</obj_property>
+         <obj_property name="ObjectShortName">commit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/mem_valid">
+         <obj_property name="ElementShortName">mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/mem_ready">
+         <obj_property name="ElementShortName">mem_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/mem_req">
+         <obj_property name="ElementShortName">mem_req</obj_property>
+         <obj_property name="ObjectShortName">mem_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/mem_resp">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/mem_result_valid">
+         <obj_property name="ElementShortName">mem_result_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_result_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/mem_result">
+         <obj_property name="ElementShortName">mem_result</obj_property>
+         <obj_property name="ObjectShortName">mem_result</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/result_valid">
+         <obj_property name="ElementShortName">result_valid</obj_property>
+         <obj_property name="ObjectShortName">result_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/vcore_xif/result_ready">
+         <obj_property name="ElementShortName">result_ready</obj_property>
+         <obj_property name="ObjectShortName">result_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/result">
+         <obj_property name="ElementShortName">result</obj_property>
+         <obj_property name="ObjectShortName">result</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_NUM_RS">
+         <obj_property name="ElementShortName">X_NUM_RS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_NUM_RS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_ID_WIDTH">
+         <obj_property name="ElementShortName">X_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_MEM_WIDTH">
+         <obj_property name="ElementShortName">X_MEM_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MEM_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_RFR_WIDTH">
+         <obj_property name="ElementShortName">X_RFR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_RFW_WIDTH">
+         <obj_property name="ElementShortName">X_RFW_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFW_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/vcore_xif/X_MISA">
+         <obj_property name="ElementShortName">X_MISA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MISA[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider13" type="divider">
+      <obj_property name="label">v_core (vicuna)</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group46">
+      <obj_property name="label">*_d</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vl_d">
+         <obj_property name="ElementShortName">vl_d[6:0]</obj_property>
+         <obj_property name="ObjectShortName">vl_d[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vl_csr_d">
+         <obj_property name="ElementShortName">vl_csr_d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">vl_csr_d[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vstart_d">
+         <obj_property name="ElementShortName">vstart_d[6:0]</obj_property>
+         <obj_property name="ObjectShortName">vstart_d[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vxrm_d">
+         <obj_property name="ElementShortName">vxrm_d[1:0]</obj_property>
+         <obj_property name="ObjectShortName">vxrm_d[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vxsat_d">
+         <obj_property name="ElementShortName">vxsat_d</obj_property>
+         <obj_property name="ObjectShortName">vxsat_d</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/lmul_d">
+         <obj_property name="ElementShortName">lmul_d[2:0]</obj_property>
+         <obj_property name="ObjectShortName">lmul_d[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/agnostic_d">
+         <obj_property name="ElementShortName">agnostic_d[1:0]</obj_property>
+         <obj_property name="ObjectShortName">agnostic_d[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group36">
+      <obj_property name="label">*_q</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vl_q">
+         <obj_property name="ElementShortName">vl_q[6:0]</obj_property>
+         <obj_property name="ObjectShortName">vl_q[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vl_csr_q">
+         <obj_property name="ElementShortName">vl_csr_q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">vl_csr_q[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vstart_q">
+         <obj_property name="ElementShortName">vstart_q[6:0]</obj_property>
+         <obj_property name="ObjectShortName">vstart_q[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vxrm_q">
+         <obj_property name="ElementShortName">vxrm_q[1:0]</obj_property>
+         <obj_property name="ObjectShortName">vxrm_q[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vxsat_q">
+         <obj_property name="ElementShortName">vxsat_q</obj_property>
+         <obj_property name="ObjectShortName">vxsat_q</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/lmul_q">
+         <obj_property name="ElementShortName">lmul_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">lmul_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/agnostic_q">
+         <obj_property name="ElementShortName">agnostic_q[1:0]</obj_property>
+         <obj_property name="ObjectShortName">agnostic_q[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/cfg_valid">
+      <obj_property name="ElementShortName">cfg_valid</obj_property>
+      <obj_property name="ObjectShortName">cfg_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dec_ready">
+      <obj_property name="ElementShortName">dec_ready</obj_property>
+      <obj_property name="ObjectShortName">dec_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/issue_id_used">
+      <obj_property name="ElementShortName">issue_id_used</obj_property>
+      <obj_property name="ObjectShortName">issue_id_used</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group133">
+      <obj_property name="label">dec</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dec/instr_valid_i">
+         <obj_property name="ElementShortName">instr_valid_i</obj_property>
+         <obj_property name="ObjectShortName">instr_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/instr_valid">
+         <obj_property name="ElementShortName">instr_valid</obj_property>
+         <obj_property name="ObjectShortName">instr_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dec/instr_illegal">
+         <obj_property name="ElementShortName">instr_illegal</obj_property>
+         <obj_property name="ObjectShortName">instr_illegal</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dec/instr_masked">
+         <obj_property name="ElementShortName">instr_masked</obj_property>
+         <obj_property name="ObjectShortName">instr_masked</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/instr_i">
+         <obj_property name="ElementShortName">instr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/x_rs1_i">
+         <obj_property name="ElementShortName">x_rs1_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_rs1_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/x_rs2_i">
+         <obj_property name="ElementShortName">x_rs2_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">x_rs2_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/instr_vs1">
+         <obj_property name="ElementShortName">instr_vs1[4:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_vs1[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/instr_vs2">
+         <obj_property name="ElementShortName">instr_vs2[4:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_vs2[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/instr_vd">
+         <obj_property name="ElementShortName">instr_vd[4:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_vd[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/vsew_i">
+         <obj_property name="ElementShortName">vsew_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">vsew_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/lmul_i">
+         <obj_property name="ElementShortName">lmul_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">lmul_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/vxrm_i">
+         <obj_property name="ElementShortName">vxrm_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">vxrm_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/vl_i">
+         <obj_property name="ElementShortName">vl_i[6:0]</obj_property>
+         <obj_property name="ObjectShortName">vl_i[6:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/unit_o">
+         <obj_property name="ElementShortName">unit_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">unit_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/mode_o">
+         <obj_property name="ElementShortName">mode_o</obj_property>
+         <obj_property name="ObjectShortName">mode_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/instr_valid">
+      <obj_property name="ElementShortName">instr_valid</obj_property>
+      <obj_property name="ObjectShortName">instr_valid</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/v_core/instr_unit">
+      <obj_property name="ElementShortName">instr_unit[2:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_unit[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/v_core/instr_mode">
+      <obj_property name="ElementShortName">instr_mode</obj_property>
+      <obj_property name="ObjectShortName">instr_mode</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/v_core/pend_vreg_wr_map_o">
+      <obj_property name="ElementShortName">pend_vreg_wr_map_o[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pend_vreg_wr_map_o[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group35">
+      <obj_property name="label">csr_*_o</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/csr_vxsat_o">
+         <obj_property name="ElementShortName">csr_vxsat_o</obj_property>
+         <obj_property name="ObjectShortName">csr_vxsat_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/csr_vxrm_o">
+         <obj_property name="ElementShortName">csr_vxrm_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_vxrm_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/csr_vtype_o">
+         <obj_property name="ElementShortName">csr_vtype_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_vtype_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/csr_vl_o">
+         <obj_property name="ElementShortName">csr_vl_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_vl_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/csr_vlenb_o">
+         <obj_property name="ElementShortName">csr_vlenb_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_vlenb_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/csr_vstart_o">
+         <obj_property name="ElementShortName">csr_vstart_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">csr_vstart_o[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/pending_load_o">
+      <obj_property name="ElementShortName">pending_load_o</obj_property>
+      <obj_property name="ObjectShortName">pending_load_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/pending_store_o">
+      <obj_property name="ElementShortName">pending_store_o</obj_property>
+      <obj_property name="ObjectShortName">pending_store_o</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group76">
+      <obj_property name="label">pipe_xif_0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /issue_valid">
+         <obj_property name="ElementShortName">issue_valid</obj_property>
+         <obj_property name="ObjectShortName">issue_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /issue_ready">
+         <obj_property name="ElementShortName">issue_ready</obj_property>
+         <obj_property name="ObjectShortName">issue_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /issue_req">
+         <obj_property name="ElementShortName">issue_req</obj_property>
+         <obj_property name="ObjectShortName">issue_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /issue_resp">
+         <obj_property name="ElementShortName">issue_resp</obj_property>
+         <obj_property name="ObjectShortName">issue_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /commit_valid">
+         <obj_property name="ElementShortName">commit_valid</obj_property>
+         <obj_property name="ObjectShortName">commit_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /commit">
+         <obj_property name="ElementShortName">commit</obj_property>
+         <obj_property name="ObjectShortName">commit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /mem_valid">
+         <obj_property name="ElementShortName">mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /mem_ready">
+         <obj_property name="ElementShortName">mem_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /mem_req">
+         <obj_property name="ElementShortName">mem_req</obj_property>
+         <obj_property name="ObjectShortName">mem_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /mem_resp">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /mem_result_valid">
+         <obj_property name="ElementShortName">mem_result_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_result_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /mem_result">
+         <obj_property name="ElementShortName">mem_result</obj_property>
+         <obj_property name="ObjectShortName">mem_result</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /result_valid">
+         <obj_property name="ElementShortName">result_valid</obj_property>
+         <obj_property name="ObjectShortName">result_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /result_ready">
+         <obj_property name="ElementShortName">result_ready</obj_property>
+         <obj_property name="ObjectShortName">result_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /result">
+         <obj_property name="ElementShortName">result</obj_property>
+         <obj_property name="ObjectShortName">result</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /X_NUM_RS">
+         <obj_property name="ElementShortName">X_NUM_RS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_NUM_RS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /X_ID_WIDTH">
+         <obj_property name="ElementShortName">X_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /X_MEM_WIDTH">
+         <obj_property name="ElementShortName">X_MEM_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MEM_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /X_RFR_WIDTH">
+         <obj_property name="ElementShortName">X_RFR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /X_RFW_WIDTH">
+         <obj_property name="ElementShortName">X_RFW_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFW_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe_xif /X_MISA">
+         <obj_property name="ElementShortName">X_MISA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MISA[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group98">
+      <obj_property name="label">pipe_xif_1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /issue_valid">
+         <obj_property name="ElementShortName">issue_valid</obj_property>
+         <obj_property name="ObjectShortName">issue_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /issue_ready">
+         <obj_property name="ElementShortName">issue_ready</obj_property>
+         <obj_property name="ObjectShortName">issue_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /issue_req">
+         <obj_property name="ElementShortName">issue_req</obj_property>
+         <obj_property name="ObjectShortName">issue_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /issue_resp">
+         <obj_property name="ElementShortName">issue_resp</obj_property>
+         <obj_property name="ObjectShortName">issue_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /commit_valid">
+         <obj_property name="ElementShortName">commit_valid</obj_property>
+         <obj_property name="ObjectShortName">commit_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /commit">
+         <obj_property name="ElementShortName">commit</obj_property>
+         <obj_property name="ObjectShortName">commit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /mem_valid">
+         <obj_property name="ElementShortName">mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /mem_ready">
+         <obj_property name="ElementShortName">mem_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /mem_req">
+         <obj_property name="ElementShortName">mem_req</obj_property>
+         <obj_property name="ObjectShortName">mem_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /mem_resp">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /mem_result_valid">
+         <obj_property name="ElementShortName">mem_result_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_result_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /mem_result">
+         <obj_property name="ElementShortName">mem_result</obj_property>
+         <obj_property name="ObjectShortName">mem_result</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /result_valid">
+         <obj_property name="ElementShortName">result_valid</obj_property>
+         <obj_property name="ObjectShortName">result_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /result_ready">
+         <obj_property name="ElementShortName">result_ready</obj_property>
+         <obj_property name="ObjectShortName">result_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /result">
+         <obj_property name="ElementShortName">result</obj_property>
+         <obj_property name="ObjectShortName">result</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /X_NUM_RS">
+         <obj_property name="ElementShortName">X_NUM_RS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_NUM_RS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /X_ID_WIDTH">
+         <obj_property name="ElementShortName">X_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /X_MEM_WIDTH">
+         <obj_property name="ElementShortName">X_MEM_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MEM_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /X_RFR_WIDTH">
+         <obj_property name="ElementShortName">X_RFR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /X_RFW_WIDTH">
+         <obj_property name="ElementShortName">X_RFW_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFW_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[1].pipe_xif /X_MISA">
+         <obj_property name="ElementShortName">X_MISA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MISA[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group120">
+      <obj_property name="label">pipe_xif_2</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /issue_valid">
+         <obj_property name="ElementShortName">issue_valid</obj_property>
+         <obj_property name="ObjectShortName">issue_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /issue_ready">
+         <obj_property name="ElementShortName">issue_ready</obj_property>
+         <obj_property name="ObjectShortName">issue_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /issue_req">
+         <obj_property name="ElementShortName">issue_req</obj_property>
+         <obj_property name="ObjectShortName">issue_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /issue_resp">
+         <obj_property name="ElementShortName">issue_resp</obj_property>
+         <obj_property name="ObjectShortName">issue_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /commit_valid">
+         <obj_property name="ElementShortName">commit_valid</obj_property>
+         <obj_property name="ObjectShortName">commit_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /commit">
+         <obj_property name="ElementShortName">commit</obj_property>
+         <obj_property name="ObjectShortName">commit</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /mem_valid">
+         <obj_property name="ElementShortName">mem_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /mem_ready">
+         <obj_property name="ElementShortName">mem_ready</obj_property>
+         <obj_property name="ObjectShortName">mem_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /mem_req">
+         <obj_property name="ElementShortName">mem_req</obj_property>
+         <obj_property name="ObjectShortName">mem_req</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /mem_resp">
+         <obj_property name="ElementShortName">mem_resp</obj_property>
+         <obj_property name="ObjectShortName">mem_resp</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /mem_result_valid">
+         <obj_property name="ElementShortName">mem_result_valid</obj_property>
+         <obj_property name="ObjectShortName">mem_result_valid</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /mem_result">
+         <obj_property name="ElementShortName">mem_result</obj_property>
+         <obj_property name="ObjectShortName">mem_result</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /result_valid">
+         <obj_property name="ElementShortName">result_valid</obj_property>
+         <obj_property name="ObjectShortName">result_valid</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /result_ready">
+         <obj_property name="ElementShortName">result_ready</obj_property>
+         <obj_property name="ObjectShortName">result_ready</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /result">
+         <obj_property name="ElementShortName">result</obj_property>
+         <obj_property name="ObjectShortName">result</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /X_NUM_RS">
+         <obj_property name="ElementShortName">X_NUM_RS[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_NUM_RS[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /X_ID_WIDTH">
+         <obj_property name="ElementShortName">X_ID_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_ID_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /X_MEM_WIDTH">
+         <obj_property name="ElementShortName">X_MEM_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MEM_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /X_RFR_WIDTH">
+         <obj_property name="ElementShortName">X_RFR_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFR_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /X_RFW_WIDTH">
+         <obj_property name="ElementShortName">X_RFW_WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_RFW_WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[2].pipe_xif /X_MISA">
+         <obj_property name="ElementShortName">X_MISA[31:0]</obj_property>
+         <obj_property name="ObjectShortName">X_MISA[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group664">
+      <obj_property name="label">pipe0</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /async_rst_ni">
+         <obj_property name="ElementShortName">async_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">async_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /sync_rst_ni">
+         <obj_property name="ElementShortName">sync_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">sync_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /pipe_in_valid_i">
+         <obj_property name="ElementShortName">pipe_in_valid_i</obj_property>
+         <obj_property name="ObjectShortName">pipe_in_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /pipe_in_ready_o">
+         <obj_property name="ElementShortName">pipe_in_ready_o</obj_property>
+         <obj_property name="ObjectShortName">pipe_in_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /pipe_in_data_i">
+         <obj_property name="ElementShortName">pipe_in_data_i</obj_property>
+         <obj_property name="ObjectShortName">pipe_in_data_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_pend_wr_i">
+         <obj_property name="ElementShortName">vreg_pend_wr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_pend_wr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_pend_rd_o">
+         <obj_property name="ElementShortName">vreg_pend_rd_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_pend_rd_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_pend_rd_i">
+         <obj_property name="ElementShortName">vreg_pend_rd_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_pend_rd_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /instr_state_i">
+         <obj_property name="ElementShortName">instr_state_i[7:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_state_i[7:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /instr_done_valid_o">
+         <obj_property name="ElementShortName">instr_done_valid_o</obj_property>
+         <obj_property name="ObjectShortName">instr_done_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /instr_done_id_o">
+         <obj_property name="ElementShortName">instr_done_id_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_done_id_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_rd_addr_o">
+         <obj_property name="ElementShortName">vreg_rd_addr_o[0:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_rd_addr_o[0:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_rd_data_i">
+         <obj_property name="ElementShortName">vreg_rd_data_i[0:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_rd_data_i[0:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_rd_v0_i">
+         <obj_property name="ElementShortName">vreg_rd_v0_i[127:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_rd_v0_i[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_wr_valid_o">
+         <obj_property name="ElementShortName">vreg_wr_valid_o</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_wr_ready_i">
+         <obj_property name="ElementShortName">vreg_wr_ready_i</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_ready_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_wr_addr_o">
+         <obj_property name="ElementShortName">vreg_wr_addr_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_addr_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_wr_be_o">
+         <obj_property name="ElementShortName">vreg_wr_be_o[15:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_be_o[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_wr_data_o">
+         <obj_property name="ElementShortName">vreg_wr_data_o[127:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_data_o[127:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_wr_clr_o">
+         <obj_property name="ElementShortName">vreg_wr_clr_o</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_clr_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /vreg_wr_clr_cnt_o">
+         <obj_property name="ElementShortName">vreg_wr_clr_cnt_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_clr_cnt_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /pending_load_o">
+         <obj_property name="ElementShortName">pending_load_o</obj_property>
+         <obj_property name="ObjectShortName">pending_load_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /pending_store_o">
+         <obj_property name="ElementShortName">pending_store_o</obj_property>
+         <obj_property name="ObjectShortName">pending_store_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /trans_complete_valid_o">
+         <obj_property name="ElementShortName">trans_complete_valid_o</obj_property>
+         <obj_property name="ObjectShortName">trans_complete_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /trans_complete_ready_i">
+         <obj_property name="ElementShortName">trans_complete_ready_i</obj_property>
+         <obj_property name="ObjectShortName">trans_complete_ready_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /trans_complete_id_o">
+         <obj_property name="ElementShortName">trans_complete_id_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">trans_complete_id_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /trans_complete_exc_o">
+         <obj_property name="ElementShortName">trans_complete_exc_o</obj_property>
+         <obj_property name="ObjectShortName">trans_complete_exc_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /trans_complete_exccode_o">
+         <obj_property name="ElementShortName">trans_complete_exccode_o[5:0]</obj_property>
+         <obj_property name="ObjectShortName">trans_complete_exccode_o[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /xreg_valid_o">
+         <obj_property name="ElementShortName">xreg_valid_o</obj_property>
+         <obj_property name="ObjectShortName">xreg_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /xreg_ready_i">
+         <obj_property name="ElementShortName">xreg_ready_i</obj_property>
+         <obj_property name="ObjectShortName">xreg_ready_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /xreg_id_o">
+         <obj_property name="ElementShortName">xreg_id_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">xreg_id_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /xreg_addr_o">
+         <obj_property name="ElementShortName">xreg_addr_o[4:0]</obj_property>
+         <obj_property name="ObjectShortName">xreg_addr_o[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /xreg_data_o">
+         <obj_property name="ElementShortName">xreg_data_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">xreg_data_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /unit_lsu">
+         <obj_property name="ElementShortName">unit_lsu</obj_property>
+         <obj_property name="ObjectShortName">unit_lsu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /unit_alu">
+         <obj_property name="ElementShortName">unit_alu</obj_property>
+         <obj_property name="ObjectShortName">unit_alu</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /unit_mul">
+         <obj_property name="ElementShortName">unit_mul</obj_property>
+         <obj_property name="ObjectShortName">unit_mul</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /unit_sld">
+         <obj_property name="ElementShortName">unit_sld</obj_property>
+         <obj_property name="ObjectShortName">unit_sld</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /unit_elem">
+         <obj_property name="ElementShortName">unit_elem</obj_property>
+         <obj_property name="ObjectShortName">unit_elem</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /elem_flush">
+         <obj_property name="ElementShortName">elem_flush</obj_property>
+         <obj_property name="ObjectShortName">elem_flush</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /elem_vs2_data">
+         <obj_property name="ElementShortName">elem_vs2_data</obj_property>
+         <obj_property name="ObjectShortName">elem_vs2_data</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /elem_vs2_mask">
+         <obj_property name="ElementShortName">elem_vs2_mask</obj_property>
+         <obj_property name="ObjectShortName">elem_vs2_mask</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /elem_vs2_dyn_addr">
+         <obj_property name="ElementShortName">elem_vs2_dyn_addr</obj_property>
+         <obj_property name="ObjectShortName">elem_vs2_dyn_addr</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /state_init">
+         <obj_property name="ElementShortName">state_init</obj_property>
+         <obj_property name="ObjectShortName">state_init</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /VREG_W">
+         <obj_property name="ElementShortName">VREG_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VREG_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /CFG_VL_W">
+         <obj_property name="ElementShortName">CFG_VL_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">CFG_VL_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /XIF_ID_W">
+         <obj_property name="ElementShortName">XIF_ID_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XIF_ID_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /XIF_ID_CNT">
+         <obj_property name="ElementShortName">XIF_ID_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XIF_ID_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /UNITS">
+         <obj_property name="ElementShortName">UNITS[4:0]</obj_property>
+         <obj_property name="ObjectShortName">UNITS[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /MAX_VPORT_W">
+         <obj_property name="ElementShortName">MAX_VPORT_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_VPORT_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /MAX_VADDR_W">
+         <obj_property name="ElementShortName">MAX_VADDR_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_VADDR_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /VPORT_CNT">
+         <obj_property name="ElementShortName">VPORT_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VPORT_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /VPORT_W">
+         <obj_property name="ElementShortName">VPORT_W[0:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">VPORT_W[0:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /VADDR_W">
+         <obj_property name="ElementShortName">VADDR_W[0:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">VADDR_W[0:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /VPORT_BUFFER">
+         <obj_property name="ElementShortName">VPORT_BUFFER[0:0]</obj_property>
+         <obj_property name="ObjectShortName">VPORT_BUFFER[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /VPORT_V0">
+         <obj_property name="ElementShortName">VPORT_V0</obj_property>
+         <obj_property name="ObjectShortName">VPORT_V0</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /MAX_OP_W">
+         <obj_property name="ElementShortName">MAX_OP_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_OP_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /VLSU_QUEUE_SZ">
+         <obj_property name="ElementShortName">VLSU_QUEUE_SZ[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VLSU_QUEUE_SZ[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /VLSU_FLAGS">
+         <obj_property name="ElementShortName">VLSU_FLAGS[0:0]</obj_property>
+         <obj_property name="ObjectShortName">VLSU_FLAGS[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /MUL_TYPE">
+         <obj_property name="ElementShortName">MUL_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MUL_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /DONT_CARE_ZERO">
+         <obj_property name="ElementShortName">DONT_CARE_ZERO</obj_property>
+         <obj_property name="ObjectShortName">DONT_CARE_ZERO</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP_CNT">
+         <obj_property name="ElementShortName">OP_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OP_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP0_SRC">
+         <obj_property name="ElementShortName">OP0_SRC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OP0_SRC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP1_SRC">
+         <obj_property name="ElementShortName">OP1_SRC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OP1_SRC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP2_SRC">
+         <obj_property name="ElementShortName">OP2_SRC[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OP2_SRC[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /MIN_STAGE">
+         <obj_property name="ElementShortName">MIN_STAGE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MIN_STAGE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP0_STAGE">
+         <obj_property name="ElementShortName">OP0_STAGE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OP0_STAGE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP1_STAGE">
+         <obj_property name="ElementShortName">OP1_STAGE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OP1_STAGE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP2_STAGE">
+         <obj_property name="ElementShortName">OP2_STAGE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">OP2_STAGE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /UNPACK_STAGES">
+         <obj_property name="ElementShortName">UNPACK_STAGES[31:0]</obj_property>
+         <obj_property name="ObjectShortName">UNPACK_STAGES[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP_DYN_ADDR_OFFSET">
+         <obj_property name="ElementShortName">OP_DYN_ADDR_OFFSET</obj_property>
+         <obj_property name="ObjectShortName">OP_DYN_ADDR_OFFSET</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP_SECOND_MASK">
+         <obj_property name="ElementShortName">OP_SECOND_MASK</obj_property>
+         <obj_property name="ObjectShortName">OP_SECOND_MASK</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP0_NARROW">
+         <obj_property name="ElementShortName">OP0_NARROW</obj_property>
+         <obj_property name="ObjectShortName">OP0_NARROW</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP1_NARROW">
+         <obj_property name="ElementShortName">OP1_NARROW</obj_property>
+         <obj_property name="ObjectShortName">OP1_NARROW</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP1_XREG">
+         <obj_property name="ElementShortName">OP1_XREG</obj_property>
+         <obj_property name="ObjectShortName">OP1_XREG</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP0_ELEMWISE">
+         <obj_property name="ElementShortName">OP0_ELEMWISE</obj_property>
+         <obj_property name="ObjectShortName">OP0_ELEMWISE</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP1_ELEMWISE">
+         <obj_property name="ElementShortName">OP1_ELEMWISE</obj_property>
+         <obj_property name="ObjectShortName">OP1_ELEMWISE</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OPMASK_ELEMWISE">
+         <obj_property name="ElementShortName">OPMASK_ELEMWISE</obj_property>
+         <obj_property name="ObjectShortName">OPMASK_ELEMWISE</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /OP0_ALT_COUNTER">
+         <obj_property name="ElementShortName">OP0_ALT_COUNTER</obj_property>
+         <obj_property name="ObjectShortName">OP0_ALT_COUNTER</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /RES_CNT">
+         <obj_property name="ElementShortName">RES_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">RES_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /MAX_RES_W">
+         <obj_property name="ElementShortName">MAX_RES_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_RES_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /RES0_ALWAYS_VREG">
+         <obj_property name="ElementShortName">RES0_ALWAYS_VREG</obj_property>
+         <obj_property name="ObjectShortName">RES0_ALWAYS_VREG</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /RES0_NARROW">
+         <obj_property name="ElementShortName">RES0_NARROW</obj_property>
+         <obj_property name="ObjectShortName">RES0_NARROW</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /RES0_ALLOW_ELEMWISE">
+         <obj_property name="ElementShortName">RES0_ALLOW_ELEMWISE</obj_property>
+         <obj_property name="ObjectShortName">RES0_ALLOW_ELEMWISE</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /FIELD_COUNT_USED">
+         <obj_property name="ElementShortName">FIELD_COUNT_USED</obj_property>
+         <obj_property name="ObjectShortName">FIELD_COUNT_USED</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /FIELD_OP">
+         <obj_property name="ElementShortName">FIELD_OP[31:0]</obj_property>
+         <obj_property name="ObjectShortName">FIELD_OP[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /ALT_COUNT_W">
+         <obj_property name="ElementShortName">ALT_COUNT_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">ALT_COUNT_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_W ">
+         <obj_property name="ElementShortName">\genblk2.OP_W [0:2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_W [0:2][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_STAGE ">
+         <obj_property name="ElementShortName">\genblk2.OP_STAGE [0:2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_STAGE [0:2][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_SRC ">
+         <obj_property name="ElementShortName">\genblk2.OP_SRC [0:2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_SRC [0:2][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_DYN_ADDR ">
+         <obj_property name="ElementShortName">\genblk2.OP_DYN_ADDR [2:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_DYN_ADDR [2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_MASK ">
+         <obj_property name="ElementShortName">\genblk2.OP_MASK [2:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_MASK [2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_XREG ">
+         <obj_property name="ElementShortName">\genblk2.OP_XREG [2:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_XREG [2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_NARROW ">
+         <obj_property name="ElementShortName">\genblk2.OP_NARROW [2:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_NARROW [2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_ALLOW_ELEMWISE ">
+         <obj_property name="ElementShortName">\genblk2.OP_ALLOW_ELEMWISE [2:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_ALLOW_ELEMWISE [2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_ALWAYS_ELEMWISE ">
+         <obj_property name="ElementShortName">\genblk2.OP_ALWAYS_ELEMWISE [2:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_ALWAYS_ELEMWISE [2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.OP_ALT_COUNTER ">
+         <obj_property name="ElementShortName">\genblk2.OP_ALT_COUNTER [2:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.OP_ALT_COUNTER [2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.RES_W ">
+         <obj_property name="ElementShortName">\genblk2.RES_W [0:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.RES_W [0:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.RES_ALWAYS_VREG ">
+         <obj_property name="ElementShortName">\genblk2.RES_ALWAYS_VREG [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.RES_ALWAYS_VREG [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.RES_MASK ">
+         <obj_property name="ElementShortName">\genblk2.RES_MASK [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.RES_MASK [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.RES_NARROW ">
+         <obj_property name="ElementShortName">\genblk2.RES_NARROW [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.RES_NARROW [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk9[0].pipe /\genblk2.RES_ALLOW_ELEMWISE ">
+         <obj_property name="ElementShortName">\genblk2.RES_ALLOW_ELEMWISE [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2.RES_ALLOW_ELEMWISE [0:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/rs1_o">
+      <obj_property name="ElementShortName">rs1_o</obj_property>
+      <obj_property name="ObjectShortName">rs1_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/rs2_o">
+      <obj_property name="ElementShortName">rs2_o</obj_property>
+      <obj_property name="ObjectShortName">rs2_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/rd_o">
+      <obj_property name="ElementShortName">rd_o</obj_property>
+      <obj_property name="ObjectShortName">rd_o</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dec/widenarrow_o">
+      <obj_property name="ElementShortName">widenarrow_o[1:0]</obj_property>
+      <obj_property name="ObjectShortName">widenarrow_o[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group166">
+      <obj_property name="label">instr_queue</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /async_rst_ni">
+         <obj_property name="ElementShortName">async_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">async_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /sync_rst_ni">
+         <obj_property name="ElementShortName">sync_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">sync_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /enq_ready_o">
+         <obj_property name="ElementShortName">enq_ready_o</obj_property>
+         <obj_property name="ObjectShortName">enq_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /enq_valid_i">
+         <obj_property name="ElementShortName">enq_valid_i</obj_property>
+         <obj_property name="ObjectShortName">enq_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /enq_data_i">
+         <obj_property name="ElementShortName">enq_data_i[120:0]</obj_property>
+         <obj_property name="ObjectShortName">enq_data_i[120:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /deq_ready_i">
+         <obj_property name="ElementShortName">deq_ready_i</obj_property>
+         <obj_property name="ObjectShortName">deq_ready_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /deq_valid_o">
+         <obj_property name="ElementShortName">deq_valid_o</obj_property>
+         <obj_property name="ObjectShortName">deq_valid_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /deq_data_o">
+         <obj_property name="ElementShortName">deq_data_o[120:0]</obj_property>
+         <obj_property name="ObjectShortName">deq_data_o[120:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /flags_any_o">
+         <obj_property name="ElementShortName">flags_any_o[120:0]</obj_property>
+         <obj_property name="ObjectShortName">flags_any_o[120:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /flags_all_o">
+         <obj_property name="ElementShortName">flags_all_o[120:0]</obj_property>
+         <obj_property name="ObjectShortName">flags_all_o[120:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /data">
+         <obj_property name="ElementShortName">data[0:1][120:0]</obj_property>
+         <obj_property name="ObjectShortName">data[0:1][120:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /rd_pos_q">
+         <obj_property name="ElementShortName">rd_pos_q[0:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_pos_q[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /rd_pos_d">
+         <obj_property name="ElementShortName">rd_pos_d[0:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_pos_d[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /wr_pos_q">
+         <obj_property name="ElementShortName">wr_pos_q[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_pos_q[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /wr_pos_d">
+         <obj_property name="ElementShortName">wr_pos_d[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_pos_d[0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /last_wr_q">
+         <obj_property name="ElementShortName">last_wr_q</obj_property>
+         <obj_property name="ObjectShortName">last_wr_q</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /last_wr_d">
+         <obj_property name="ElementShortName">last_wr_d</obj_property>
+         <obj_property name="ObjectShortName">last_wr_d</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /empty">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /full">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /push">
+         <obj_property name="ElementShortName">push</obj_property>
+         <obj_property name="ObjectShortName">push</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /pop">
+         <obj_property name="ElementShortName">pop</obj_property>
+         <obj_property name="ObjectShortName">pop</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /entry_valid">
+         <obj_property name="ElementShortName">entry_valid[1:0]</obj_property>
+         <obj_property name="ObjectShortName">entry_valid[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /WIDTH">
+         <obj_property name="ElementShortName">WIDTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">WIDTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /DEPTH">
+         <obj_property name="ElementShortName">DEPTH[31:0]</obj_property>
+         <obj_property name="ObjectShortName">DEPTH[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/\genblk6.instr_queue /FLOW">
+         <obj_property name="ElementShortName">FLOW</obj_property>
+         <obj_property name="ObjectShortName">FLOW</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group158">
+      <obj_property name="label">dispatcher</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dispatcher/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dispatcher/async_rst_ni">
+         <obj_property name="ElementShortName">async_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">async_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dispatcher/sync_rst_ni">
+         <obj_property name="ElementShortName">sync_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">sync_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dispatcher/instr_valid_i">
+         <obj_property name="ElementShortName">instr_valid_i</obj_property>
+         <obj_property name="ObjectShortName">instr_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dispatcher/instr_ready_o">
+         <obj_property name="ElementShortName">instr_ready_o</obj_property>
+         <obj_property name="ObjectShortName">instr_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/instr_data_i">
+         <obj_property name="ElementShortName">instr_data_i</obj_property>
+         <obj_property name="ObjectShortName">instr_data_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/instr_vreg_wr_i">
+         <obj_property name="ElementShortName">instr_vreg_wr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_vreg_wr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/dispatch_valid_o">
+         <obj_property name="ElementShortName">dispatch_valid_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">dispatch_valid_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/dispatch_ready_i">
+         <obj_property name="ElementShortName">dispatch_ready_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">dispatch_ready_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/dispatch_data_o">
+         <obj_property name="ElementShortName">dispatch_data_o</obj_property>
+         <obj_property name="ObjectShortName">dispatch_data_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/pend_vreg_wr_map_o">
+         <obj_property name="ElementShortName">pend_vreg_wr_map_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pend_vreg_wr_map_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/pend_vreg_wr_clr_i">
+         <obj_property name="ElementShortName">pend_vreg_wr_clr_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pend_vreg_wr_clr_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/pend_vreg_wr_map_q">
+         <obj_property name="ElementShortName">pend_vreg_wr_map_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pend_vreg_wr_map_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/pend_vreg_wr_map_d">
+         <obj_property name="ElementShortName">pend_vreg_wr_map_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pend_vreg_wr_map_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/pend_vreg_wr_map_set">
+         <obj_property name="ElementShortName">pend_vreg_wr_map_set[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pend_vreg_wr_map_set[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/PIPE_CNT">
+         <obj_property name="ElementShortName">PIPE_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PIPE_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/PIPE_UNITS">
+         <obj_property name="ElementShortName">PIPE_UNITS[0:2][4:0]</obj_property>
+         <obj_property name="ObjectShortName">PIPE_UNITS[0:2][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/MAX_VADDR_W">
+         <obj_property name="ElementShortName">MAX_VADDR_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_VADDR_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/dispatcher/DONT_CARE_ZERO">
+         <obj_property name="ElementShortName">DONT_CARE_ZERO</obj_property>
+         <obj_property name="ObjectShortName">DONT_CARE_ZERO</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/dispatcher/VADDR_CNT">
+         <obj_property name="ElementShortName">VADDR_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VADDR_CNT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group138">
+      <obj_property name="label">vregfile</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vregfile/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vregfile/async_rst_ni">
+         <obj_property name="ElementShortName">async_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">async_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vregfile/sync_rst_ni">
+         <obj_property name="ElementShortName">sync_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">sync_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/wr_addr_i">
+         <obj_property name="ElementShortName">wr_addr_i[1:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_addr_i[1:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/wr_data_i">
+         <obj_property name="ElementShortName">wr_data_i[1:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_data_i[1:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/wr_be_i">
+         <obj_property name="ElementShortName">wr_be_i[1:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_be_i[1:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/wr_we_i">
+         <obj_property name="ElementShortName">wr_we_i[1:0]</obj_property>
+         <obj_property name="ObjectShortName">wr_we_i[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/rd_addr_i">
+         <obj_property name="ElementShortName">rd_addr_i[4:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr_i[4:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/rd_data_o">
+         <obj_property name="ElementShortName">rd_data_o[4:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data_o[4:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/ram_asic">
+         <obj_property name="ElementShortName">ram_asic[31:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">ram_asic[31:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/rd_addr">
+         <obj_property name="ElementShortName">rd_addr[5:0][1:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_addr[5:0][1:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/rd_data">
+         <obj_property name="ElementShortName">rd_data[5:0][1:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">rd_data[5:0][1:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[0].wr_data ">
+         <obj_property name="ElementShortName">\genblk1[0].wr_data [127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].wr_data [127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[0].genblk1.genblk1[0].ram ">
+         <obj_property name="ElementShortName">\genblk1[0].genblk1.genblk1[0].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].genblk1.genblk1[0].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[0].genblk1.genblk1[1].ram ">
+         <obj_property name="ElementShortName">\genblk1[0].genblk1.genblk1[1].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].genblk1.genblk1[1].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[0].genblk1.genblk1[2].ram ">
+         <obj_property name="ElementShortName">\genblk1[0].genblk1.genblk1[2].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].genblk1.genblk1[2].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[0].genblk1.genblk1[3].ram ">
+         <obj_property name="ElementShortName">\genblk1[0].genblk1.genblk1[3].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].genblk1.genblk1[3].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[0].genblk1.genblk1[4].ram ">
+         <obj_property name="ElementShortName">\genblk1[0].genblk1.genblk1[4].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].genblk1.genblk1[4].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[0].genblk1.genblk1[5].ram ">
+         <obj_property name="ElementShortName">\genblk1[0].genblk1.genblk1[5].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].genblk1.genblk1[5].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[1].wr_data ">
+         <obj_property name="ElementShortName">\genblk1[1].wr_data [127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].wr_data [127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[1].genblk1.genblk1[0].ram ">
+         <obj_property name="ElementShortName">\genblk1[1].genblk1.genblk1[0].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].genblk1.genblk1[0].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[1].genblk1.genblk1[1].ram ">
+         <obj_property name="ElementShortName">\genblk1[1].genblk1.genblk1[1].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].genblk1.genblk1[1].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[1].genblk1.genblk1[2].ram ">
+         <obj_property name="ElementShortName">\genblk1[1].genblk1.genblk1[2].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].genblk1.genblk1[2].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[1].genblk1.genblk1[3].ram ">
+         <obj_property name="ElementShortName">\genblk1[1].genblk1.genblk1[3].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].genblk1.genblk1[3].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[1].genblk1.genblk1[4].ram ">
+         <obj_property name="ElementShortName">\genblk1[1].genblk1.genblk1[4].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].genblk1.genblk1[4].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/\genblk1[1].genblk1.genblk1[5].ram ">
+         <obj_property name="ElementShortName">\genblk1[1].genblk1.genblk1[5].ram [0:31][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].genblk1.genblk1[5].ram [0:31][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/VREG_TYPE">
+         <obj_property name="ElementShortName">VREG_TYPE[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VREG_TYPE[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/VREG_W">
+         <obj_property name="ElementShortName">VREG_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VREG_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/MAX_PORT_W">
+         <obj_property name="ElementShortName">MAX_PORT_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_PORT_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/MAX_ADDR_W">
+         <obj_property name="ElementShortName">MAX_ADDR_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">MAX_ADDR_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/PORT_RD_CNT">
+         <obj_property name="ElementShortName">PORT_RD_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT_RD_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/PORT_RD_W">
+         <obj_property name="ElementShortName">PORT_RD_W[0:4][31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT_RD_W[0:4][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/PORT_WR_CNT">
+         <obj_property name="ElementShortName">PORT_WR_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT_WR_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/PORT_WR_W">
+         <obj_property name="ElementShortName">PORT_WR_W[0:1][31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT_WR_W[0:1][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vregfile/PORT_RD_CNT_TOTAL">
+         <obj_property name="ElementShortName">PORT_RD_CNT_TOTAL[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PORT_RD_CNT_TOTAL[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group496">
+      <obj_property name="label">vreg_wr_mux</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/async_rst_ni">
+         <obj_property name="ElementShortName">async_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">async_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/sync_rst_ni">
+         <obj_property name="ElementShortName">sync_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">sync_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_valid_i">
+         <obj_property name="ElementShortName">vreg_wr_valid_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_valid_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_ready_o">
+         <obj_property name="ElementShortName">vreg_wr_ready_o[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_ready_o[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_addr_i">
+         <obj_property name="ElementShortName">vreg_wr_addr_i[2:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_addr_i[2:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_be_i">
+         <obj_property name="ElementShortName">vreg_wr_be_i[2:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_be_i[2:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_data_i">
+         <obj_property name="ElementShortName">vreg_wr_data_i[2:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_data_i[2:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_clr_i">
+         <obj_property name="ElementShortName">vreg_wr_clr_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_clr_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_clr_cnt_i">
+         <obj_property name="ElementShortName">vreg_wr_clr_cnt_i[2:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_clr_cnt_i[2:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/pend_vreg_wr_clr_o">
+         <obj_property name="ElementShortName">pend_vreg_wr_clr_o[31:0]</obj_property>
+         <obj_property name="ObjectShortName">pend_vreg_wr_clr_o[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vregfile_wr_en_o">
+         <obj_property name="ElementShortName">vregfile_wr_en_o[1:0]</obj_property>
+         <obj_property name="ObjectShortName">vregfile_wr_en_o[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vregfile_wr_addr_o">
+         <obj_property name="ElementShortName">vregfile_wr_addr_o[1:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">vregfile_wr_addr_o[1:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vregfile_wr_be_o">
+         <obj_property name="ElementShortName">vregfile_wr_be_o[1:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">vregfile_wr_be_o[1:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vregfile_wr_data_o">
+         <obj_property name="ElementShortName">vregfile_wr_data_o[1:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">vregfile_wr_data_o[1:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_valid">
+         <obj_property name="ElementShortName">vreg_wr_valid[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_valid[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_addr">
+         <obj_property name="ElementShortName">vreg_wr_addr[2:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_addr[2:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_be">
+         <obj_property name="ElementShortName">vreg_wr_be[2:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_be[2:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_data">
+         <obj_property name="ElementShortName">vreg_wr_data[2:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_data[2:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_clr">
+         <obj_property name="ElementShortName">vreg_wr_clr[2:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_clr[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/vreg_wr_clr_cnt">
+         <obj_property name="ElementShortName">vreg_wr_clr_cnt[2:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">vreg_wr_clr_cnt[2:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_valid_q ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_valid_q [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_valid_q [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_valid_d ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_valid_d </obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_valid_d </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_addr_q ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_addr_q [0:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_addr_q [0:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_addr_d ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_addr_d [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_addr_d [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_be_q ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_be_q [0:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_be_q [0:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_be_d ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_be_d [15:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_be_d [15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_data_q ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_data_q [0:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_data_q [0:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_data_d ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_data_d [127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_data_d [127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_clr_q ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_clr_q [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_clr_q [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_clr_d ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_clr_d </obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_clr_d </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_clr_cnt_q ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_clr_cnt_q [0:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_clr_cnt_q [0:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].vreg_wr_clr_cnt_d ">
+         <obj_property name="ElementShortName">\genblk1[0].vreg_wr_clr_cnt_d [1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].vreg_wr_clr_cnt_d [1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_valid_q ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_valid_q [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_valid_q [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_valid_d ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_valid_d </obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_valid_d </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_addr_q ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_addr_q [0:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_addr_q [0:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_addr_d ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_addr_d [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_addr_d [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_be_q ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_be_q [0:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_be_q [0:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_be_d ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_be_d [15:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_be_d [15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_data_q ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_data_q [0:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_data_q [0:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_data_d ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_data_d [127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_data_d [127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_clr_q ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_clr_q [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_clr_q [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_clr_d ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_clr_d </obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_clr_d </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_clr_cnt_q ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_clr_cnt_q [0:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_clr_cnt_q [0:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].vreg_wr_clr_cnt_d ">
+         <obj_property name="ElementShortName">\genblk1[1].vreg_wr_clr_cnt_d [1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].vreg_wr_clr_cnt_d [1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_valid_q ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_valid_q [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_valid_q [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_valid_d ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_valid_d </obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_valid_d </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_addr_q ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_addr_q [0:0][4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_addr_q [0:0][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_addr_d ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_addr_d [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_addr_d [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_be_q ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_be_q [0:0][15:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_be_q [0:0][15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_be_d ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_be_d [15:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_be_d [15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_data_q ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_data_q [0:0][127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_data_q [0:0][127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_data_d ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_data_d [127:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_data_d [127:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_clr_q ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_clr_q [0:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_clr_q [0:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_clr_d ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_clr_d </obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_clr_d </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_clr_cnt_q ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_clr_cnt_q [0:0][1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_clr_cnt_q [0:0][1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].vreg_wr_clr_cnt_d ">
+         <obj_property name="ElementShortName">\genblk1[2].vreg_wr_clr_cnt_d [1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].vreg_wr_clr_cnt_d [1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/pipe_pend_vreg_wr_clr">
+         <obj_property name="ElementShortName">pipe_pend_vreg_wr_clr[2:0][31:0]</obj_property>
+         <obj_property name="ObjectShortName">pipe_pend_vreg_wr_clr[2:0][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[0].pend_clr ">
+         <obj_property name="ElementShortName">\genblk2[0].pend_clr </obj_property>
+         <obj_property name="ObjectShortName">\genblk2[0].pend_clr </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[0].pend_clr_cnt ">
+         <obj_property name="ElementShortName">\genblk2[0].pend_clr_cnt [1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[0].pend_clr_cnt [1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[0].pend_clr_addr ">
+         <obj_property name="ElementShortName">\genblk2[0].pend_clr_addr [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[0].pend_clr_addr [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[0].pend_clr_addr_mask ">
+         <obj_property name="ElementShortName">\genblk2[0].pend_clr_addr_mask [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[0].pend_clr_addr_mask [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[1].pend_clr ">
+         <obj_property name="ElementShortName">\genblk2[1].pend_clr </obj_property>
+         <obj_property name="ObjectShortName">\genblk2[1].pend_clr </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[1].pend_clr_cnt ">
+         <obj_property name="ElementShortName">\genblk2[1].pend_clr_cnt [1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[1].pend_clr_cnt [1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[1].pend_clr_addr ">
+         <obj_property name="ElementShortName">\genblk2[1].pend_clr_addr [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[1].pend_clr_addr [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[1].pend_clr_addr_mask ">
+         <obj_property name="ElementShortName">\genblk2[1].pend_clr_addr_mask [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[1].pend_clr_addr_mask [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[2].pend_clr ">
+         <obj_property name="ElementShortName">\genblk2[2].pend_clr </obj_property>
+         <obj_property name="ObjectShortName">\genblk2[2].pend_clr </obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[2].pend_clr_cnt ">
+         <obj_property name="ElementShortName">\genblk2[2].pend_clr_cnt [1:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[2].pend_clr_cnt [1:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[2].pend_clr_addr ">
+         <obj_property name="ElementShortName">\genblk2[2].pend_clr_addr [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[2].pend_clr_addr [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[2].pend_clr_addr_mask ">
+         <obj_property name="ElementShortName">\genblk2[2].pend_clr_addr_mask [4:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk2[2].pend_clr_addr_mask [4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/VREG_W">
+         <obj_property name="ElementShortName">VREG_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VREG_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/VPORT_WR_CNT">
+         <obj_property name="ElementShortName">VPORT_WR_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VPORT_WR_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/PIPE_CNT">
+         <obj_property name="ElementShortName">PIPE_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PIPE_CNT[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/PIPE_UNITS">
+         <obj_property name="ElementShortName">PIPE_UNITS[0:2][4:0]</obj_property>
+         <obj_property name="ObjectShortName">PIPE_UNITS[0:2][4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/PIPE_VPORT_WR">
+         <obj_property name="ElementShortName">PIPE_VPORT_WR[0:2][31:0]</obj_property>
+         <obj_property name="ObjectShortName">PIPE_VPORT_WR[0:2][31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/TIMEPRED">
+         <obj_property name="ElementShortName">TIMEPRED</obj_property>
+         <obj_property name="ObjectShortName">TIMEPRED</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/DONT_CARE_ZERO">
+         <obj_property name="ElementShortName">DONT_CARE_ZERO</obj_property>
+         <obj_property name="ObjectShortName">DONT_CARE_ZERO</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/VADDR_W">
+         <obj_property name="ElementShortName">VADDR_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">VADDR_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/PEND_CLEAR_CNT_W">
+         <obj_property name="ElementShortName">PEND_CLEAR_CNT_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PEND_CLEAR_CNT_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].PIPE_MAX_WR_ATTEMPTS ">
+         <obj_property name="ElementShortName">\genblk1[0].PIPE_MAX_WR_ATTEMPTS [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].PIPE_MAX_WR_ATTEMPTS [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].MAX_WR_DELAY ">
+         <obj_property name="ElementShortName">\genblk1[0].MAX_WR_DELAY [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].MAX_WR_DELAY [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[0].WRITE_BUFFER_SZ ">
+         <obj_property name="ElementShortName">\genblk1[0].WRITE_BUFFER_SZ [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[0].WRITE_BUFFER_SZ [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].PIPE_MAX_WR_ATTEMPTS ">
+         <obj_property name="ElementShortName">\genblk1[1].PIPE_MAX_WR_ATTEMPTS [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].PIPE_MAX_WR_ATTEMPTS [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].MAX_WR_DELAY ">
+         <obj_property name="ElementShortName">\genblk1[1].MAX_WR_DELAY [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].MAX_WR_DELAY [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[1].WRITE_BUFFER_SZ ">
+         <obj_property name="ElementShortName">\genblk1[1].WRITE_BUFFER_SZ [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[1].WRITE_BUFFER_SZ [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].PIPE_MAX_WR_ATTEMPTS ">
+         <obj_property name="ElementShortName">\genblk1[2].PIPE_MAX_WR_ATTEMPTS [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].PIPE_MAX_WR_ATTEMPTS [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].MAX_WR_DELAY ">
+         <obj_property name="ElementShortName">\genblk1[2].MAX_WR_DELAY [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].MAX_WR_DELAY [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk1[2].WRITE_BUFFER_SZ ">
+         <obj_property name="ElementShortName">\genblk1[2].WRITE_BUFFER_SZ [31:0]</obj_property>
+         <obj_property name="ObjectShortName">\genblk1[2].WRITE_BUFFER_SZ [31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[0].VPORT_PEND_CLR_BULK ">
+         <obj_property name="ElementShortName">\genblk2[0].VPORT_PEND_CLR_BULK </obj_property>
+         <obj_property name="ObjectShortName">\genblk2[0].VPORT_PEND_CLR_BULK </obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[1].VPORT_PEND_CLR_BULK ">
+         <obj_property name="ElementShortName">\genblk2[1].VPORT_PEND_CLR_BULK </obj_property>
+         <obj_property name="ObjectShortName">\genblk2[1].VPORT_PEND_CLR_BULK </obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/vreg_wr_mux/\genblk2[2].VPORT_PEND_CLR_BULK ">
+         <obj_property name="ElementShortName">\genblk2[2].VPORT_PEND_CLR_BULK </obj_property>
+         <obj_property name="ObjectShortName">\genblk2[2].VPORT_PEND_CLR_BULK </obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group206">
+      <obj_property name="label">result_if</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/clk_i">
+         <obj_property name="ElementShortName">clk_i</obj_property>
+         <obj_property name="ObjectShortName">clk_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/async_rst_ni">
+         <obj_property name="ElementShortName">async_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">async_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/sync_rst_ni">
+         <obj_property name="ElementShortName">sync_rst_ni</obj_property>
+         <obj_property name="ObjectShortName">sync_rst_ni</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_empty_valid_i">
+         <obj_property name="ElementShortName">result_empty_valid_i</obj_property>
+         <obj_property name="ObjectShortName">result_empty_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_empty_id_i">
+         <obj_property name="ElementShortName">result_empty_id_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_empty_id_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_lsu_valid_i">
+         <obj_property name="ElementShortName">result_lsu_valid_i</obj_property>
+         <obj_property name="ObjectShortName">result_lsu_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_lsu_ready_o">
+         <obj_property name="ElementShortName">result_lsu_ready_o</obj_property>
+         <obj_property name="ObjectShortName">result_lsu_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_lsu_id_i">
+         <obj_property name="ElementShortName">result_lsu_id_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_lsu_id_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_lsu_exc_i">
+         <obj_property name="ElementShortName">result_lsu_exc_i</obj_property>
+         <obj_property name="ObjectShortName">result_lsu_exc_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_lsu_exccode_i">
+         <obj_property name="ElementShortName">result_lsu_exccode_i[5:0]</obj_property>
+         <obj_property name="ObjectShortName">result_lsu_exccode_i[5:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_xreg_valid_i">
+         <obj_property name="ElementShortName">result_xreg_valid_i</obj_property>
+         <obj_property name="ObjectShortName">result_xreg_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_xreg_ready_o">
+         <obj_property name="ElementShortName">result_xreg_ready_o</obj_property>
+         <obj_property name="ObjectShortName">result_xreg_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_xreg_id_i">
+         <obj_property name="ElementShortName">result_xreg_id_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_xreg_id_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_xreg_addr_i">
+         <obj_property name="ElementShortName">result_xreg_addr_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">result_xreg_addr_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_xreg_data_i">
+         <obj_property name="ElementShortName">result_xreg_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_xreg_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_valid_i">
+         <obj_property name="ElementShortName">result_csr_valid_i</obj_property>
+         <obj_property name="ObjectShortName">result_csr_valid_i</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_ready_o">
+         <obj_property name="ElementShortName">result_csr_ready_o</obj_property>
+         <obj_property name="ObjectShortName">result_csr_ready_o</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_id_i">
+         <obj_property name="ElementShortName">result_csr_id_i[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_id_i[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_addr_i">
+         <obj_property name="ElementShortName">result_csr_addr_i[4:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_addr_i[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_delayed_i">
+         <obj_property name="ElementShortName">result_csr_delayed_i</obj_property>
+         <obj_property name="ObjectShortName">result_csr_delayed_i</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_data_i">
+         <obj_property name="ElementShortName">result_csr_data_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_data_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_data_delayed_i">
+         <obj_property name="ElementShortName">result_csr_data_delayed_i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_data_delayed_i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/instr_result_empty_q">
+         <obj_property name="ElementShortName">instr_result_empty_q[7:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_result_empty_q[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/instr_result_empty_d">
+         <obj_property name="ElementShortName">instr_result_empty_d[7:0]</obj_property>
+         <obj_property name="ObjectShortName">instr_result_empty_d[7:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_valid_q">
+         <obj_property name="ElementShortName">result_csr_valid_q</obj_property>
+         <obj_property name="ObjectShortName">result_csr_valid_q</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_valid_d">
+         <obj_property name="ElementShortName">result_csr_valid_d</obj_property>
+         <obj_property name="ObjectShortName">result_csr_valid_d</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_id_q">
+         <obj_property name="ElementShortName">result_csr_id_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_id_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_id_d">
+         <obj_property name="ElementShortName">result_csr_id_d[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_id_d[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_addr_q">
+         <obj_property name="ElementShortName">result_csr_addr_q[4:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_addr_q[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_addr_d">
+         <obj_property name="ElementShortName">result_csr_addr_d[4:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_addr_d[4:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_delayed_q">
+         <obj_property name="ElementShortName">result_csr_delayed_q</obj_property>
+         <obj_property name="ObjectShortName">result_csr_delayed_q</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_delayed_d">
+         <obj_property name="ElementShortName">result_csr_delayed_d</obj_property>
+         <obj_property name="ObjectShortName">result_csr_delayed_d</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_data_q">
+         <obj_property name="ElementShortName">result_csr_data_q[31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_data_q[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_csr_data_d">
+         <obj_property name="ElementShortName">result_csr_data_d[31:0]</obj_property>
+         <obj_property name="ObjectShortName">result_csr_data_d[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_source_hold_q">
+         <obj_property name="ElementShortName">result_source_hold_q</obj_property>
+         <obj_property name="ObjectShortName">result_source_hold_q</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/result_source_hold_d">
+         <obj_property name="ElementShortName">result_source_hold_d</obj_property>
+         <obj_property name="ObjectShortName">result_source_hold_d</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_source_q">
+         <obj_property name="ElementShortName">result_source_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_source_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_source_d">
+         <obj_property name="ElementShortName">result_source_d[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_source_d[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_empty_id_q">
+         <obj_property name="ElementShortName">result_empty_id_q[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_empty_id_q[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_empty_id_d">
+         <obj_property name="ElementShortName">result_empty_id_d[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_empty_id_d[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_source">
+         <obj_property name="ElementShortName">result_source[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_source[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/result_empty_id">
+         <obj_property name="ElementShortName">result_empty_id[2:0]</obj_property>
+         <obj_property name="ObjectShortName">result_empty_id[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/XIF_ID_W">
+         <obj_property name="ElementShortName">XIF_ID_W[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XIF_ID_W[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/srv32_top/v_core/result_if/DONT_CARE_ZERO">
+         <obj_property name="ElementShortName">DONT_CARE_ZERO</obj_property>
+         <obj_property name="ObjectShortName">DONT_CARE_ZERO</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/srv32_top/v_core/result_if/XIF_ID_CNT">
+         <obj_property name="ElementShortName">XIF_ID_CNT[31:0]</obj_property>
+         <obj_property name="ObjectShortName">XIF_ID_CNT[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="divider150" type="divider">
+      <obj_property name="label">mem2ports signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#800080</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group3240">
+      <obj_property name="label">imem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/imem/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/imem/resetb">
+         <obj_property name="ElementShortName">resetb</obj_property>
+         <obj_property name="ObjectShortName">resetb</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/imem/rready">
+         <obj_property name="ElementShortName">rready</obj_property>
+         <obj_property name="ObjectShortName">rready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/imem/wready">
+         <obj_property name="ElementShortName">wready</obj_property>
+         <obj_property name="ObjectShortName">wready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/imem/rresp">
+         <obj_property name="ElementShortName">rresp</obj_property>
+         <obj_property name="ObjectShortName">rresp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/rdata">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/raddr">
+         <obj_property name="ElementShortName">raddr[31:2]</obj_property>
+         <obj_property name="ObjectShortName">raddr[31:2]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/waddr">
+         <obj_property name="ElementShortName">waddr[31:2]</obj_property>
+         <obj_property name="ObjectShortName">waddr[31:2]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/wdata">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/wstrb">
+         <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/data">
+         <obj_property name="ElementShortName">data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/radr">
+         <obj_property name="ElementShortName">radr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">radr[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/wadr">
+         <obj_property name="ElementShortName">wadr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">wadr[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/i">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/file">
+         <obj_property name="ElementShortName">file[31:0]</obj_property>
+         <obj_property name="ObjectShortName">file[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/imem/r">
+         <obj_property name="ElementShortName">r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group3239">
+      <obj_property name="label">dmem</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="logic" fp_name="/testbench/dmem/clk">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dmem/resetb">
+         <obj_property name="ElementShortName">resetb</obj_property>
+         <obj_property name="ObjectShortName">resetb</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dmem/rready">
+         <obj_property name="ElementShortName">rready</obj_property>
+         <obj_property name="ObjectShortName">rready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dmem/wready">
+         <obj_property name="ElementShortName">wready</obj_property>
+         <obj_property name="ObjectShortName">wready</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/testbench/dmem/rresp">
+         <obj_property name="ElementShortName">rresp</obj_property>
+         <obj_property name="ObjectShortName">rresp</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/rdata">
+         <obj_property name="ElementShortName">rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/raddr">
+         <obj_property name="ElementShortName">raddr[31:2]</obj_property>
+         <obj_property name="ObjectShortName">raddr[31:2]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/waddr">
+         <obj_property name="ElementShortName">waddr[31:2]</obj_property>
+         <obj_property name="ObjectShortName">waddr[31:2]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/wdata">
+         <obj_property name="ElementShortName">wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/wstrb">
+         <obj_property name="ElementShortName">wstrb[3:0]</obj_property>
+         <obj_property name="ObjectShortName">wstrb[3:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/data">
+         <obj_property name="ElementShortName">data[31:0]</obj_property>
+         <obj_property name="ObjectShortName">data[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/radr">
+         <obj_property name="ElementShortName">radr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">radr[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/wadr">
+         <obj_property name="ElementShortName">wadr[15:0]</obj_property>
+         <obj_property name="ObjectShortName">wadr[15:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/i">
+         <obj_property name="ElementShortName">i[31:0]</obj_property>
+         <obj_property name="ObjectShortName">i[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/file">
+         <obj_property name="ElementShortName">file[31:0]</obj_property>
+         <obj_property name="ObjectShortName">file[31:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/testbench/dmem/r">
+         <obj_property name="ElementShortName">r[31:0]</obj_property>
+         <obj_property name="ObjectShortName">r[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
